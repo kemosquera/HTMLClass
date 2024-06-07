@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #333;
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+
+header {
+    padding: 1rem;
+    background: rgb(255, 213, 2);
+}
+
+h1 {
+    color: #e3000b
+}
+/* Arrange the SECTION and the ASIDE elements side-by-side in columns */
+main {
+	display: flex;
+	flex-direction: row;
+}
+/* Make the SECTION column a bit wider than the ASIDE column */
+main section {
+	width: 60%;
+}
+main aside {
+	width: 40%;
+}
